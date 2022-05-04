@@ -3,6 +3,8 @@ ID: christi104
 TASK: ride
 LANG: C++
 */
+
+// Chapter 1, section 1.2, solution 1
 #include <bits/stdc++.h>
 
 #define ll long long
