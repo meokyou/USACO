@@ -5,6 +5,7 @@ LANG: C++
 */
 
 // Chapter 1, section 1.2, solution 1
+// Last edit 4 May 03:12
 #include <bits/stdc++.h>
 
 #define ll long long

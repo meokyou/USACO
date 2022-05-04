@@ -1,8 +1,11 @@
 /*
 ID: christi104
-LANG: C++14
-PROG: gift1
+TASK: gift1
+LANG: C++
 */
+
+// Chapter 1, section 1.2, solution 2
+// Last edit 4 May 2022 03:11
 #include <fstream>
 
 int findElement(std::string x, std::string arr[], int len)

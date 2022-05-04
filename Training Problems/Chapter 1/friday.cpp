@@ -4,7 +4,8 @@ TASK: friday
 LANG: C++
 */
 
-// Last edited 3 May 2022 23:19
+// Chapter 1, section 1.2, solution 3
+// Last edit 3 May 2022 03:12
 #include <bits/stdc++.h>
 using namespace std;
 
