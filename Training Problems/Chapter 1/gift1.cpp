@@ -20,15 +20,14 @@ int findElement(std::string x, std::string arr[], int len)
 
 int main()
 {
-    std::ifstream fin ("gift1.in");
-    std::ofstream fout ("gift1.out");
+    std::ifstream fin("gift1.in");
+    std::ofstream fout("gift1.out");
     int NP = 0;
     fin >> NP;
 
     int balance[NP + 1];
     for (int i = 0; i < NP; i++)
         balance[i] = 0;
-
 
     int amount, transactions, distribution, index, K;
     std::string query, recipient;
@@ -51,7 +50,6 @@ int main()
                 balance[index] = balance[index] + distribution;
             }
             balance[K] = balance[K] - (transactions * distribution);
-            
         }
         else
         {
@@ -65,6 +63,5 @@ int main()
     for (int c = 0; c < NP; c++)
         fout << name[c] << " " << balance[c] << std::endl;
 
-    return 0;  
-
+    return 0;
 }
